@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controleur.Controleur">
+   <center>
+      <Pane fx:id="panneauMap" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" BorderPane.alignment="CENTER">
+         <children>
+            <TilePane fx:id="tilePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefColumns="50" prefRows="50" />
+            <Label fx:id="displayarme" style="-fx-background-color: white; -fx-alignment: right; -fx-label-padding: 10px;" text="Arme : Arc" textFill="#200338" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font name="Arial Black" size="23.0" />
+               </font>
+            </Label>
+      
+         </children>
+      </Pane> 
+   </center>
+</BorderPane>
